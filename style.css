@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.store {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.products, .cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+}
+.product, .cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.product img, .cart-item img {
+    width: 50px;
+    height: 50px;
+}
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+}
